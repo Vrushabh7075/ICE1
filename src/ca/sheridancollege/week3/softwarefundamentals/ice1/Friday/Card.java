@@ -8,13 +8,15 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
 /**
  *
  * @author Ronak
+ * Modifier: Vrushabh Patoliya
+ * id: 991612852
  */
 public class Card {
 
-   private String suit; //clubs, spades, diamonds, hearts
-   private int value;//1-13
+   String suit; //clubs, spades, diamonds, hearts
+   int value;//1-13
 
-   public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+   public static final String [] SUITS = {"clubs", "spades", "diamonds", "hearts"};
     /**
      * @return the suit
      */
